@@ -19,7 +19,9 @@ if(agePassenger < 18){
 } else{
   totalPrice = km * pricePerKm
 }
-console.log(totalPrice)
+console.log(totalPrice);
+
+document.getElementById('message').innerHTML += '' + totalPrice;
 
 
 
